@@ -30,12 +30,17 @@ body {
         img {
             height: 100%;
         }    
+
+        h2 {
+            display: none;
+        }
     }
 
     .card:hover {
         width: 50%;
 
         h2 {
+            display: block;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             border-radius: 8px;
             color: white;

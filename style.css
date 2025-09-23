@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(90deg, rgb(136, 49, 150),rgb(60, 4, 105));
+
+    .card {
+        position: relative;
+        height: 60%;
+        width: 15%;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        transition: 2s;
+
+        img {
+            height: 100%;
+        }    
+    }
+
+    .card:hover {
+        width: 50%;
+
+        h2 {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 8px;
+            color: white;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+        }
+    }
+
+
+}
+
+
+
+
+

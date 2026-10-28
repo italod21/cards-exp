@@ -43,7 +43,7 @@ body {
             display: block;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             border-radius: 8px;
-            color: white;
+            color: gray;
             padding: 10px;
             background-color: rgba(0, 0, 0, 0.5);
             position: absolute;
